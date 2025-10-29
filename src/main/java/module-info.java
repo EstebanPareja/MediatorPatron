@@ -5,4 +5,6 @@ module co.edu.uniquindio.poo.mediator {
 
     opens co.edu.uniquindio.poo.mediator to javafx.fxml;
     exports co.edu.uniquindio.poo.mediator;
+    exports co.edu.uniquindio.poo.mediator.viewController;
+    opens co.edu.uniquindio.poo.mediator.viewController to javafx.fxml;
 }

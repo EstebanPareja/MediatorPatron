@@ -11,4 +11,12 @@ public abstract class Persona {
 
     public abstract void enviarMensaje(String mensaje);
     public abstract void recibirMensaje(String mensaje);
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setMesero(IMesero mesero) {
+        this.mesero = mesero;
+    }
 }
