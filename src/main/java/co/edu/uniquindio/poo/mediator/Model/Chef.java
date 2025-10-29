@@ -16,5 +16,6 @@ public class Chef extends Persona {
     @Override
     public void recibirMensaje(String mensaje) {
         System.out.println("chef " +nombre + " recibe:" + mensaje);
+        enviarMensaje("Pedido recibido");
     }
 }

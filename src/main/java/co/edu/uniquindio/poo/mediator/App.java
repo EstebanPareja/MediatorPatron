@@ -15,6 +15,6 @@ public class App {
         restaurante.setChef(pedroChef);
 
         santi.enviarMensaje("Quiero una bandeja paisa con jugo de mora");
-        pedroChef.enviarMensaje("Pedido recibido y en proceso");
+        pedroChef.enviarMensaje("Pedido en proceso");
     }
 }
